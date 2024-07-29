@@ -2,78 +2,75 @@
 
 ## Logistics
 + **Instructor:** [Semih Salihoglu](https://cs.uwaterloo.ca/~ssalihog/)
-+ **Seminar Room:** TBD
-+ **Seminar Time:** TBD
++ **Seminar Room:** DC 2568
++ **Seminar Time:** Wed 3-6pm
 
 ## Overview
-The quest to build intelligent machines that are capable of logical reasoning, i.e., ones that can 
-induce new information  or deduce logical rules from prior information, is as old as the field of 
-computer science. Research topics motivated with this ultimate goal is at the heart of 
-symbolic (as opposed to statistical) artificial intelligence and connects with many sub-fields 
-of computer science, such as data management and semantic web, as well as other scientific fields,
-such as linguistics. These systems are generally based on forming a knowledge base or 
-knowledge graph that represent a set of facts about a real world application domain,
-as well as elementary logical rules specifying constraints about the domain, as well
-as an inference system that can answer questions using the base facts and the rules.
-Historically, there has been several periods that have popularized the development of such 
-knowledge graph-based applications. The strongest of these have been the expert systems of 1980,
-the semantic web of 2000s, and the current wave of question answering in search engines, 
-recommender systems, and dataset cataloging/search for extremely heterogeneous 
-large public goverment and private enterprise data lakes.
+Since the beginnings of computer science and in particular the field of data management,
+several classes of data management systems have been developed to support different 
+classes of applications. The most widely known of these are relational database managements
+that implement the SQL query language and are based on the relational model of data.
+Relational systems are widely known and have transformed the field of software engineering.
+Yet, many classes of applications require different data models, query languages,
+and/or computational capabilities from their underlying data or information systems.
+This seminar will cover several of these classes of systems with a focus on applications
+of these systems to AI. Important classes of systems we will cover are: 
+- Datalog systems, are based on the logic-based Datalog language. We will cover several applications of Datalog
+  to perform complex and declarative recursive querying over relational records. We will also cover
+  very technical core query processing algorithms in Datalog.
+- Resource description framework (RDF) systems, which are based on the RDF data model and 
+the backbone of applications that use datasets that are nowadays referred to as "knowledge graphs". 
+We will discuss the applications or RDF systems to AI, specifically symbolic AI, and do exercises in
+in automatic logical inferences systems can do in AI.
+- Property graph DBMSs, which are one of the most widely used database management
+systems that propose a direct graph model instead of tabular model. We will discuss several core architectural
+principles of developing property graph DBMSs and do exercises in graph querying.
 
-This seminar will cover seminal work in the space of knowledge graph representation, querying,
-management, and past and primarily modern applications that are powered by knowledge graphs.
-Topics include knowledge models, ontologies, query languages, graph data management systems,
-public knowledge graphs, knowledge graph embeddings, popular successful past and present
-applications. 
+As part of these systems, we will cover two additional topics:
+1. Limits of inference, some core undecidability results and core reasoning algorithms: This is a topic that is very fundamental to symbolic AI and systems like
+RDF and partly to Datalog as well.
+2. Retrieval augmented generation (RAG) systems: This is very popular technique (though at this point speculative) for improving the
+accuracy of LLM-based question and answering systems. RAG is the technique of retrieving a set of 
+relevant document chunks or structured records to answer a question. Many people are experimenting with 
+using either an RDF or property graph database when building RAG applications. I suggest this as a possible
+project topic as well to do build a modern AI-application using a beyond relational system.
 
-The seminar is based on weekly paper readings and student presentations, discussions, and
-a term project. 
+The seminar is based on weekly paper readings and student presentations, discussions,
+a term project, and one or two simple assignments that will give students a chance to work with
+systems that we will cover. The most important part is the term project.
 
 ## Schedule
 The below schedule is subject to change:
 | Week | Date | Topic | Readings |
 |:-----|:-----|:-----|:------------|
-| 1 | 9/13 | Introduction (Semih lecturing) |  [Knowledge Graphs](https://dl.acm.org/doi/10.1145/3418294) <br/> [The Semantic Web](https://www.jstor.org/stable/26059207?seq=1#metadata_info_tab_contents) <br/> SWFO Ch 3, 5-7|
-| 2 | 9/20 | Guest Lecture: Prof. Grant Weddell  <br/> Foundations of Knowledge Representation | KRR Ch 2 & 3 <br/> (No reviews but do Exercises 1 and 4 in Ch 2.7 of KRR and submit a pdf (latex or hand written)). |
-| 3 | 9/27 | Datalog (Semih lecturing online) |  PDKBS 3 (from pgs 96 to 139 but I highly recommend 139-164 <br /> as well if you have not read on the formalism of relational algebra) |
-| 4 | 10/04   | Query Processing in Deductive DBMS: Magic Sets (Semih lecturing) | PDKBS 12.1-12.8, PDKBS 13.1-13.5 <br/> Optional: [Magic Sets Original Paper](https://dl.acm.org/doi/10.1145/6012.15399) <br/> Optional: [Magic is Relevant](https://dl.acm.org/doi/abs/10.1145/93605.98734) |
-| -- | 10/11   | No Class (Reading Week) | |
-| 5 | 10/18   | RDF Systems | [RDFox](https://link.springer.com/content/pdf/10.1007/978-3-319-25010-6_1.pdf) <br/> [RDF3x](https://dl.acm.org/doi/10.14778/1453856.1453927) |
-| 6 | 10/25   | Property Graph Data Management Systems (Semih and Amine lecturing) | [The Ubiquity of Large Graphs User Survey](https://cs.uwaterloo.ca/~jimmylin/publications/Sahu_etal_VLDBJ2019.pdf) <br/> [FDB](http://vldb.org/pvldb/vol5/p1232_nurzhanbakibayev_vldb2012.pdf) <br/> [Optimizing Subgraph Queries by Combining Binary and WCOJ](https://www.vldb.org/pvldb/vol12/p1692-mhedhbi.pdf) <br/> Optional: [Umbra WCOJ Implementation](https://db.in.tum.de/~freitag/papers/p1891-freitag.pdf) |
-| 7 | 11/01   | Large Public Knowledge Graphs and Ontologies | [DBPedia](https://www.researchgate.net/publication/259828897_DBpedia_-_A_Large-scale_Multilingual_Knowledge_Base_Extracted_from_Wikipedia) <br/> [SNODEM](https://link.springer.com/book/10.1007/978-981-287-895-3): Ch 3, Ch 4.1-4.3.8.3, 4.4 <br/> [Schema.org](https://queue.acm.org/detail.cfm?id=2857276) |
-| 8 | 11/08   | Enterprise Knowledge Graphs & Management Systems | [Sequeda Thesis Ch 3](https://repositories.lib.utexas.edu/bitstream/handle/2152/30537/SEQUEDA-DISSERTATION-2015.pdf) <br/> [Sequeda Thesis Ch 4](https://repositories.lib.utexas.edu/bitstream/handle/2152/30537/SEQUEDA-DISSERTATION-2015.pdf) <br/> [Optional: Pay-as-you-go Methodology Case Study](https://github.com/juansequeda/papers/blob/master/iswc2019.pdf) (Focus on Section 4)|
-| 9 | 11/15   | Natural Language Interfaces to Data | [BELA](https://download.hrz.tu-darmstadt.de/pub/FB20/Dekanat/Publikationen/UKP/76500354.pdf) <br/> [ATHENA](http://www.vldb.org/pvldb/vol9/p1209-saha.pdf) <br/> [Optional: ATHENA++](http://www.vldb.org/pvldb/vol13/p2747-sen.pdf) <br/> [Optional: IRNet](https://aclanthology.org/P19-1444.pdf)|
-| 10 | 11/22   | Graph Embeddings/Deep Natural Language Embeddings  | [TransE](https://proceedings.neurips.cc/paper/2013/file/1cecc7a77928ca8133fa24680a88d2f9-Paper.pdf) <br/> [Q&A With Embeddings](https://arxiv.org/pdf/1406.3676.pdf) <br/> [Optional: Survey on KG Embeddings](https://ieeexplore.ieee.org/document/8047276)|
-| 11 | 11/29   |  Guest Lecture on Data Cataloging: Juan Sequeda & Other Enterprise Applications | [Datanami Article](https://www.datanami.com/2022/09/30/what-does-it-mean-for-a-data-catalog-to-be-powered-by-a-knowledge-graph/) <br/> [Saga](https://arxiv.org/pdf/2204.07309.pdf) |
-| 12 | 12/06   | Linked Open Data Movement | [Google Dataset Search](https://dl.acm.org/doi/pdf/10.1145/3308558.3313685) <br/> [Table Union Search](http://www.vldb.org/pvldb/vol11/p813-nargesian.pdf) <br/> Optional: [Making Open Datasets Transparent](http://www.cs.toronto.edu/~christina/documents/MakingOpenDataTransparent.pdf)|
+| 1 | -- | Introduction (Semih lecturing) | History of data management | |
+| 2 | -- |  |
+| 12 | -- | Project presentations | 
 
 ## Readings
 
 This seminar's reading will cover chapters from the following surveys and textbooks in addition to research papers, which will be posted in the schedule.
 + [Knowledge Representation and Reasoning (KRR)](https://www.cin.ufpe.br/~mtcfa/files/in1122/Knowledge%20Representation%20and%20Reasoning.pdf), Brachman \& Levesque, 2004
-+ [Designing and Building Enterprise Knowledge Graphs](https://link.springer.com/book/10.1007/978-3-031-01916-6), Sequeda \& Lassila, 2021
-+ [Machine Knowledge: Creation and Curation of Comprehensive Knowledge Bases](https://www.nowpublishers.com/article/Details/DBS-064), Weikum, Dong, Razniewski, Suchanek, 2021
-+ [Natural Language Interfaces to Data](https://www.nowpublishers.com/article/Details/DBS-078) Quammar,Efthymiou, Lei, Özcan, 2022
 + [Semantic Web for the Working Ontologist (SWFWO)](https://tinyurl.com/2p9672s2), Allemang \& Hendler, 2008
++ Modern Query Processing Techniques for Graph Database Management Systems, 2024 (upcoming survey paper by Mhedhbi, Deshpande, and Salihoğlu)
 + The Protégé Project: [1](https://perso.liris.cnrs.fr/amille/enseignements/MasterCode/IC_IA/session2/protege_evolution.pdf), [2](https://dl.acm.org/doi/pdf/10.1145/2757001.2757003)
-+ [Rule-Based Expert Systems: The MYCIN Experiments of the Stanford Heuristic Programming Project](https://people.dbmi.columbia.edu/~ehs7001/Buchanan-Shortliffe-1984/MYCIN%20Book.htm), Buchanan, Shortliffe, 1984
 + [Principles of Database and Knowledge-Base Systems (PDKBS)](https://www.sti-innsbruck.at/sites/default/files/Knowledge-Representation-Search-and-Rules/principles-of-database-and-knowledge-base-systems-volume-1-1.pdf), Ullman, 1989
 
 
 ## Workload Breakdown
 + Class Participation: 15%
-+ Paper Reviews: 20%
++ Paper Reviews + Exercises: 20%
 + Presentation: 15%
 + Project: 50%
 
 ## Paper Reviews
-For each seminar (except the first 2 seminars) we will be writing two reviews for two of the papers 
+For the seminars where there is paper reading, we will be writing two reviews for two of the papers 
 assigned to that day. If there are more than two papers assigned, you can pick any two of 
-the assigned papers. You are allowed to skip 1 review throughout the term. I am flexible in the formats of your
-review.  The reviews will be 1 pages long (if you need more space take another 0.25 pages but try not to). 
+the assigned papers. You are not allowed to skip any reviews. Broadly, reviews should be critiques that interpret
+why the paper is important and how it has contributed to the field (though see my detailed comment below). 
 You have to finish your review with 
-one question to start a discussion in the seminar. The reviews are due the Monday at 6pm before the seminar. 
+one question to start a discussion in the seminar. The reviews are due Tuesday at 6pm before the seminar
+because I need to read them before the seminar and refer to them during the seminar.
 You are expected to (very very) briefly answer the following 6 questions and finish your reviews with a
 question that can start a discussion in class:
 
@@ -92,16 +89,35 @@ but I recommend: Single column, 1.5 space, 12 pt, in Latex.
 Ultimately, the main thing I am looking for is a demonstration of serious critical reading of the paper.
 
 ## Project Deliverables
-There are two main deliverables of your project, a 6-page paper and the source code of your project 
-with instructions to run your code.
+There are three deliverables of your project, 1) a presentation in the last seminar; 2) a 6-page paper; and 3) the
+source code of your project with instructions to run your code. The deadline for the paper and the code will be 
+determined later.
++ Project Presentation: 15 minute long presentation, similar to your paper presentations and if appropriate a demo
 + Project Paper: The project papers will be 6 pages. You can have extra pages for the references.
 They will be written in the two-column ACM proceedings format, using one of the ACM SIG Proceedings Templates.
 + Project Source Code: Please put your source code into github and include a link in your project writeup. 
 On the github page, please document exactly how to run your source code.
 
+## Project Ideas
+Here are a few project ideas. You are welcome to come up with your own project ideas:
+- Building a sophisticated-enough application using an RDF, Datalog, or property graph database. This can be building
+a question and answering system that uses LLMs and RAG, a Datalog application, e.g., one that does declarative
+networking as in these projects: [1](https://dl.acm.org/doi/pdf/10.1145/1592761.1592785) or [2](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-173.pdf).
+- An experiment and analysis work evaluating the performance of LLMs on a beyond relational system, e.g.,
+how accurate the queries generated by LLMs are (e.g., see [this paper](https://arxiv.org/pdf/2311.07509)) or
+how accurate are LLMs in generating RDF triples from text documents?
+- Doing a mini-research on a core component of an RDF or property graph database. For property graph
+database I suggest using [Kùzu](https://github.com/kuzudb/kuzu). For RDF databases, we can discuss the options.
+The core components could be storage manager, query processor, or the optimizer.
+- There is no established Datalog system I can recommend but you can find one. A good project is to
+develop a very simple, in-memory, Datalog system that implements one core Datalog query processing algorithm
+and the magic-sets optimization. This is a very good implementation-heavy project for people interested
+in the internals of the system. A similar project can be done for RDF as well. The goals of such projects are to give
+you a feel for the different core components of data management systems.
 
 ## Presentations
-Each student will be doing 1 presentation in the term. Each presentation will be about 25 minutes long. 
+Each student will be doing 1 or 2 presentations in the term. The amount will depend on the class size. 
+Each presentation will be about 25 minutes long. 
 Here are the important points summarizing what you have to do for your presentations.
 
 + You must present with slides. The content in your slides should be your own but you can use others' materials, e.g., 
