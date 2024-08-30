@@ -1,7 +1,7 @@
 # Beyond Relational Systems (CS 848, Fall 2024)
 
 ## Logistics
-+ **Instructor:** [Semih Salihoglu](https://cs.uwaterloo.ca/~ssalihog/)
++ **Instructor:** [Semih Salihoğlu](https://cs.uwaterloo.ca/~ssalihog/)
 + **Seminar Room:** DC 2568
 + **Seminar Time:** Wed 3-6pm
 
@@ -20,20 +20,11 @@ of these systems to AI. The main classes of systems we will cover are:
   very technical core query processing algorithms in Datalog.
 - Resource description framework (RDF) systems, which are based on the RDF data model and 
 the backbone of applications that use datasets that are nowadays referred to as "knowledge graphs". 
-We will discuss the applications of RDF systems to AI, specifically symbolic AI, and do exercises in
-in automatic logical inferences systems can do in AI.
+We will discuss the applications of RDF systems to AI, specifically symbolic AI, and do exercises
+in automatic logical inferences that RDF systems can do.
 - Property graph DBMSs, which are one of the most widely used database management
 systems that propose a direct graph model instead of tabular model. We will discuss several core architectural
 principles of developing property graph DBMSs and do exercises in graph querying.
-
-As part of these systems, we will cover two additional topics:
-1. Limits of inference, some core undecidability results and core reasoning algorithms: This is a topic that is very fundamental to symbolic AI and systems based on
-RDF and Datalog.
-2. Retrieval augmented generation (RAG) systems: This is very popular technique (though at this point speculative) for improving the
-accuracy of LLM-based question and answering systems. RAG is the technique of retrieving a set of 
-relevant document chunks or structured records to answer a question. Many people are experimenting with 
-using either an RDF or property graph database when building RAG applications. I suggest this as a possible
-project topic as well to do build a modern AI-application using a beyond relational system.
 
 The seminar is based on weekly paper readings and student presentations, discussions,
 a term project, and several simple assignments that will give students a chance to work with
@@ -41,11 +32,22 @@ systems that we will cover. The most important part is the term project.
 
 ## Schedule
 The below schedule is subject to change:
-| Week | Date | Topic | Readings |
-|:-----|:-----|:-----|:------------|
-| 1 | -- | Introduction (Semih lecturing) | History of data management | |
-| 2 | -- |  |
-| 12 | -- | Project presentations | 
+| Date | Topic | Readings |
+|:-----|:-----|:------------|
+| 4 Sep | Introduction, History of DBMSs (Semih lecturing) | <ul><li>[A Veritable Bucket of Facts](https://dl.acm.org/doi/10.1145/1147376.1147382) </li> <li>[Programmer As Navigator](https://dl.acm.org/doi/10.1145/355611.362534)</li> <li>[A Relational Model of Data for Large Shared Data Banks](https://dl.acm.org/doi/abs/10.1145/362384.362685)</ul> |
+| 11 Sep | Property Graph DBMSs 1 (Semih lecturing) | |
+| 18 Sep | Datalog 1 (Semih lecturing) |  |
+| 25 Sep | Datalog 2 (Students) | |
+| 2 Oct | RDF 1 (Semih lecturing) | |
+| 9 Oct | RDF 2 (Students) | |
+| 16 Oct | Reading Week | |
+| 23 Oct | Vector Databases (Semih & students)| |
+| 30 Oct | Applications 1: Graph RAG | |
+| 6 Nov | Applications 2: Cyc project | |
+| 13 Nov | Applications 3: Graph ML | |
+| 20 Nov | Applications 4: TBD | |
+| 27 Nov | No Class |
+| 4 Dec | Project presentations |
 
 ## Readings
 
@@ -59,8 +61,8 @@ This seminar's reading will cover chapters from the following surveys and textbo
 
 ## Workload Breakdown
 + Class Participation: 15%
-+ Paper Reviews + Exercises: 20%
-+ Presentation: 15%
++ Paper Reviews + Assignments: 25%
++ Presentation: 10%
 + Project: 50%
 
 ## Paper Reviews
