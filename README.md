@@ -101,7 +101,7 @@ On the github page, please document exactly how to run your source code.
 
 The deadline for delivering the your project paper and source codes will be anounced later.
 In addition by the 3rd week's seminar, everyone will submit a 1-page project proposal describing the scope of the project.
-Every project should be done by 1 person. You can make a case for pairing up, but your case needs to be strong. 
+You can team up for your project or do one individually. You can be at most 2 people per project.
 
 ## Project Ideas
 Here are several project ideas. You are welcome to come up with your own project ideas:
