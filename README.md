@@ -35,17 +35,17 @@ The below schedule is subject to change:
 | Date | Topic | Readings |
 |:-----|:-----|:------------|
 | 4 Sep | Introduction, History of DBMSs (Semih lecturing) | <ul><li>[A Veritable Bucket of Facts](https://dl.acm.org/doi/10.1145/1147376.1147382) </li> <li>[Programmer As Navigator](https://dl.acm.org/doi/10.1145/355611.362534)</li> <li>[A Relational Model of Data for Large Shared Data Banks](https://dl.acm.org/doi/abs/10.1145/362384.362685)</ul> |
-| 11 Sep | Property Graph DBMSs 1 (Semih lecturing) | |
-| 18 Sep | Datalog 1 (Semih lecturing) |  |
+| 11 Sep | Property Graph DBMSs 1 (Semih) | |
+| 18 Sep | Datalog 1 (Semih) |  |
 | 25 Sep | Datalog 2 (Students) | |
-| 2 Oct | RDF 1 (Semih lecturing) | |
+| 2 Oct | RDF 1 (Semih) | |
 | 9 Oct | RDF 2 (Students) | |
 | 16 Oct | Reading Week | |
-| 23 Oct | Vector Databases (Semih & students)| |
-| 30 Oct | Applications 1: Graph RAG | |
-| 6 Nov | Applications 2: Cyc project | |
-| 13 Nov | Applications 3: Graph ML | |
-| 20 Nov | Applications 4: TBD | |
+| 23 Oct | Vector Databases (Semih & Students)| |
+| 30 Oct | Applications 1: Graph RAG (Students) | |
+| 6 Nov | Applications 2: Cyc project (Students) | |
+| 13 Nov | Applications 3: Graph ML (Students) | |
+| 20 Nov | Applications 4: TBD (Students)| |
 | 27 Nov | No Class |
 | 4 Dec | Project presentations |
 
