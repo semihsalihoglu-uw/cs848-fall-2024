@@ -43,7 +43,7 @@ The below schedule is subject to change:
 | 16 Oct | Reading Week | |
 | 23 Oct | Vector Databases (Semih & Students)| |
 | 30 Oct | Applications 1: Graph RAG (Students) | |
-| 6 Nov | Applications 2: Cyc project (Students) | |
+| 6 Nov | Applications 2: TDB: An application of logic-based systems (e.g., Cyc) (Students) | |
 | 13 Nov | Applications 3: Graph ML (Students) | |
 | 20 Nov | Applications 4: TBD (Students)| |
 | 27 Nov | No Class |
@@ -52,7 +52,6 @@ The below schedule is subject to change:
 ## Readings
 
 This seminar's reading will cover chapters from the following surveys and textbooks in addition to research papers, which will be posted in the schedule.
-+ [Knowledge Representation and Reasoning (KRR)](https://www.cin.ufpe.br/~mtcfa/files/in1122/Knowledge%20Representation%20and%20Reasoning.pdf), Brachman \& Levesque, 2004
 + [Semantic Web for the Working Ontologist (SWFWO)](https://tinyurl.com/2p9672s2), Allemang \& Hendler, 2008
 + Modern Query Processing Techniques for Graph Database Management Systems, 2024 (upcoming survey paper by Amine Mhedhbi, Amol Deshpande, and Semih Salihoğlu)
 + The Protégé Project: [1](https://perso.liris.cnrs.fr/amille/enseignements/MasterCode/IC_IA/session2/protege_evolution.pdf), [2](https://dl.acm.org/doi/pdf/10.1145/2757001.2757003)
