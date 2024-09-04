@@ -62,7 +62,7 @@ This seminar's reading will cover chapters from the following surveys and textbo
 + Class Participation: 15%
 + Paper Reviews + Assignments: 30%
 + Presentation: 10%
-+ Project: 50%
++ Project: 45%
 
 ## Paper Reviews
 For the seminars where there is paper reading, we will be writing two reviews for two of the papers 
