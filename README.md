@@ -60,7 +60,7 @@ This seminar's reading will cover chapters from the following surveys and textbo
 
 ## Workload Breakdown
 + Class Participation: 15%
-+ Paper Reviews + Assignments: 25%
++ Paper Reviews + Assignments: 30%
 + Presentation: 10%
 + Project: 50%
 
