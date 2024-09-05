@@ -36,16 +36,16 @@ The below schedule is subject to change:
 |:-----|:-----|:------------|
 | 4 Sep | Introduction, History of DBMSs (Semih lecturing) | <ul><li>[A Veritable Bucket of Facts](https://dl.acm.org/doi/10.1145/1147376.1147382) </li> <li>[Programmer As Navigator](https://dl.acm.org/doi/10.1145/355611.362534)</li> <li>[A Relational Model of Data for Large Shared Data Banks](https://dl.acm.org/doi/abs/10.1145/362384.362685)</ul> |
 | 11 Sep | Property Graph DBMSs 1 (Semih) | <ul><li>[The Ubiquity of Large Graphs User Survey](https://cs.uwaterloo.ca/~jimmylin/publications/Sahu_etal_VLDBJ2019.pdf) </li> <li>What's Graph DBMS Video [1](https://www.youtube.com/watch?v=BksVyv5864k&list=PLnMU6rfAdE1CpxwilWJyWETgy2J-KPkZj) [2](https://www.youtube.com/watch?v=sr63gtm1-j8&list=PLnMU6rfAdE1CpxwilWJyWETgy2J-KPkZj&index=2) <li> Modern Techniques For Querying Graph-structured Databases (see email) Chapter 1 until 2.3.2; Chapter 3 beginning until 3.3; Chapter 3.3.3; Chapter 4 until 4.2.2; Chapter 4.3.2 (skim through theoretical parts)</li> </ul>  |
-| 18 Sep | Datalog 1 (Semih) |  |
-| 25 Sep | Datalog 2 (Students) | |
-| 2 Oct | RDF 1 (Semih) | |
-| 9 Oct | RDF 2 (Students) | |
+| 18 Sep | Parallel Graph Analytics Systems (Semih & Students) |  |
+| 25 Sep | Datalog 1 (Semih) | |
+| 2 Oct | Datalog 2 (Students) | |
+| 9 Oct |  RDF 1 (Semih) | |
 | 16 Oct | Reading Week | |
-| 23 Oct | Vector Databases (Semih & Students)| |
-| 30 Oct | Applications 1: Graph RAG (Students) | |
-| 6 Nov | Applications 2: TDB: An application of logic-based systems (e.g., Cyc) (Students) | |
-| 13 Nov | Applications 3: Graph ML (Students) | |
-| 20 Nov | Applications 4: TBD (Students)| |
+| 23 Oct | RDF 2 (Students) | |
+| 30 Oct |  Vector Databases (Semih & Students) | |
+| 6 Nov | Applications 1: Graph RAG (Students) | |
+| 13 Nov | Applications 2: TDB: An application of logic-based systems (e.g., Cyc) (Students) | |
+| 20 Nov | Applications 3: Graph ML (Students) | |
 | 27 Nov | No Class |
 | 4 Dec | Project presentations |
 
