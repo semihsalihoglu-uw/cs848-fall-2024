@@ -17,11 +17,12 @@ def q2(conn: duck.DuckDBPyConnection) ->duck.DuckDBPyRelation:
 
 
 def main():
-    shutil.rmtree("ex_db.duckdb", ignore_errors=True)
-    conn = duck.connect(database="ex_db.duckdb")
-    res = q1(conn)
-    # res = q2(conn)                                                                                                               
-    print(res.show());
+  # See the comment in insert_data_duckdb.py about DuckDB database files.  
+  shutil.rmtree("ex_db.duckdb", ignore_errors=True)
+  conn = duck.connect(database="ex_db.duckdb")
+  res = q1(conn)
+  # res = q2(conn)                                                                                                               
+  print(res.show());
 
 if __name__ == "__main__":
     main()
