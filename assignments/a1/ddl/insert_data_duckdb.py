@@ -1,6 +1,10 @@
 import shutil
 import duckdb
 
+# DuckDB databases are single files. Here we're setting up a database file ex_db.duckdb 
+# that lives under the current directory from which you're running this script. You need 
+# to run this script only once to set up your database and then work on your solutions script
+# to work on your queries, which should also point to the same file.
 shutil.rmtree("ex_db.duckdb", ignore_errors=True)
 conn = duckdb.connect(database="ex_db.duckdb")
 
