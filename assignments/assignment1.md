@@ -28,7 +28,7 @@ def q1(conn: str) -> pd.DataFrame:
 have for each query a function: `q1` ... `q5.
 
 
-Other Resources:
+# Other Resources:
 I encourage you to use [Kùzu Explorer](https://docs.kuzudb.com/visualization/) when iterating over your queries, before you put them in your final solution. This is a browser-based command line interface but also allows you to visualize your query results in a node-link diagram. You can type the following command to launch Explorer:
 ```
 docker run -p 8000:8000 \
@@ -39,7 +39,7 @@ docker run -p 8000:8000 \
 ```
 You can look at [this video](https://www.youtube.com/watch?v=yKcVV_bhBTo) as well to learn more about how to use Kùzu Explorer. 
 
-If you want to learn about using Python virtual environments to isolate the pip installations you do on system, you can look at [venv](https://docs.python.org/3/library/venv.html).
+If you want to learn about using Python virtual environments to isolate the pip installations you do on system, you can look at [venv](https://docs.python.org/3/library/venv.html). [Here](https://mnzel.medium.com/how-to-activate-python-venv-on-a-mac-a8fa1c3cb511) are simpler instructions if you're on a Mac.
 
 ## Problem statement
 
