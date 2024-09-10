@@ -1,6 +1,12 @@
 import kuzu
 import shutil
 
+# Kuzu databases are stored inside directory. Therefore to open Kuzu database,
+# you need to create kuzu.Database object that points to your database directory.
+# Here we're setting up a database directory as 'ex_db_kuzu' that is located under the 
+# current directory from which you're running this script. You need 
+# to run this script only once to set up your database and then work on your solutions script
+# to work on your queries, which should also point to the same directory.
 shutil.rmtree("./ex_db_kuzu", ignore_errors=True)
 db = kuzu.Database("./ex_db_kuzu")
 conn = kuzu.Connection(db)
