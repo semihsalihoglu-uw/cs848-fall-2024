@@ -1,5 +1,4 @@
 import duckdb as duck
-import shutil
 
 def q1(conn: duck.DuckDBPyConnection) ->duck.DuckDBPyRelation:
   print("Running q1")
@@ -18,7 +17,6 @@ def q2(conn: duck.DuckDBPyConnection) ->duck.DuckDBPyRelation:
 
 def main():
   # See the comment in insert_data_duckdb.py about DuckDB database files.  
-  shutil.rmtree("ex_db.duckdb", ignore_errors=True)
   conn = duck.connect(database="ex_db.duckdb")
   res = q1(conn)
   # res = q2(conn)                                                                                                               
