@@ -1,5 +1,4 @@
 import kuzu as kz
-import shutil
 
 def q1(conn: kz.Connection) -> kz.QueryResult:
   return conn.execute(
@@ -33,7 +32,6 @@ def q5(conn: kz.Connection) -> kz.QueryResult:
 
 def main():
     # See the comment in insert_data_kuzu.py about Kuzu database directories.
-    shutil.rmtree("./ex_db_kuzu", ignore_errors=True)
     db = kz.Database("./ex_db_kuzu")
     conn = kz.Connection(db)
     res = q1(conn)
