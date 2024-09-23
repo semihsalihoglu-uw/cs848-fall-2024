@@ -1,0 +1,45 @@
+.decl account(id:number, account_id:symbol, owner:number, balance:number)
+.input account
+
+.decl person(id:number, name:symbol, address:symbol, state:symbol, zipcode:symbol, email:symbol)
+.input person
+
+.decl transfer(src:number, dst:number, amount:number, transaction_id:symbol)
+.input transfer
+
+// Q1: Find all possible direct "Transfers" to the account owned by the person whose email is georodaw366@hotmail.com
+.decl q1(src:number, dst:number, amount:number, transaction_id:symbol)
+.output q1
+
+// Uncomment and fill this rule.
+// q1(src, dst, amount, transaction_id) :- 
+
+
+
+// Q2: Find all possible connections of type Transfer, including indirect ones up to length k = 5,
+// from the accounts owned by georodaw366@hotmail.com to ezimmerman@yahoo.com. 
+// Note: The output should contain only the path p, which should be the concatenation of the transaction_ids with '-'(e.g., "47029071-49498486').
+// Hint: Use the cat function of Souffle to concatenate strings: https://souffle-lang.github.io/arguments.
+// Hint: Although the output only contains the paths, consider using an intermediate predicate that computes
+// all of the paths from georgedaw366@hotmail.com
+.decl q2(p:symbol)
+.output q2
+
+// Uncomment and fill this rule (though you are likely to declare (.decl) and use other relations and have multiple rules for q2
+// q2(p) :- 
+
+
+
+// Q3: Find all shortest paths of type Transfer from an account owned by a person with email addresses e1, to an account owned by an email address e2,
+// You should represent your paths as in q2.
+// You can write your code for e1="c49martinez@gmail.com" and e2="ezimmerman@yahoo.com", but I can change those to other addresses to test your code. 
+// You can assume that shortest paths are of length at most 6.
+// Hint: Different Datalog extensions have different ways of performing aggregations. Think of how you can use the min functor of Souffle
+// to achieve this in Soufle. Here is the documentation for max: https://souffle-lang.github.io/tutorial#maximum.
+// Min is similar (just change max with min in the example).
+.decl q3(p:symbol)
+.output q3
+
+// Uncomment and fill this rule	(though	you are	likely to declare (.decl) and use other	relations and have multiple rules for q3
+// q3(p) :-
+
