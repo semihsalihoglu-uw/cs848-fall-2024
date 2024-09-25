@@ -38,12 +38,12 @@ The below schedule is subject to change:
 | 11 Sep | Property Graph DBMSs 1 (Semih) | <ul><li>[The Ubiquity of Large Graphs User Survey](https://cs.uwaterloo.ca/~jimmylin/publications/Sahu_etal_VLDBJ2019.pdf) </li> <li>What's Graph DBMS Video [1](https://www.youtube.com/watch?v=BksVyv5864k&list=PLnMU6rfAdE1CpxwilWJyWETgy2J-KPkZj) [2](https://www.youtube.com/watch?v=sr63gtm1-j8&list=PLnMU6rfAdE1CpxwilWJyWETgy2J-KPkZj&index=2) <li> Modern Techniques For Querying Graph-structured Databases (see email) Chapter 1 until 2.3.2; Chapter 3 beginning until 3.3; Chapter 3.3.3; Chapter 4 until 4.2.2; Chapter 4.3.2 (skim through theoretical parts)</li> </ul>  | [A1](assignments/a1/a1.md) out (due Sep 25th) |
 | 18 Sep | Parallel Graph Analytics Systems (Semih & Students) | <ul><li> [Pregel: A System for Large-scale Graph Processing](https://dl.acm.org/doi/10.1145/1807167.1807184) (Semih) </li> <li> [Ligra: A Lightweight Graph Processing Framework for Shared Memory](https://jshun.csail.mit.edu/ligra.pdf) (Mingkun) </li> | |
 | 25 Sep | Datalog 1 (Semih) | [PDKBS](http://www.lsv.fr/~goubault/BD/ullman-principles-of-database-and-knowledge-base-systems-volume-1.pdf) Chapter 3 (from pgs 96 to 139 + 139-164 are optional but highly recommended) (For reviews: Provide a 2 page brief summary of the general formalism, semi-naive evaluation, and stratification) | A2 out (due October 9) |
-| 2 Oct | Datalog Applications (Students) | <ul> <li>[Strictly Declarative Specification of Sophisticated Points-to Analyses](https://yanniss.github.io/doop-oopsla09prelim.pdf) </li> <li> [Declarative Routing: Extensible Routing With Declarative Queries](https://netdb.cis.upenn.edu/papers/declarenet.pdf)</li> | |
+| 2 Oct | Datalog Applications (Students) | <ul> <li>[Strictly Declarative Specification of Sophisticated Points-to Analyses](https://yanniss.github.io/doop-oopsla09prelim.pdf) (Shaquille) </li> <li> [Declarative Routing: Extensible Routing With Declarative Queries](https://netdb.cis.upenn.edu/papers/declarenet.pdf) (Ruidi)</li> | |
 | 9 Oct |  RDF 1 (Semih) | | A3 out (due October 23) |
 | 16 Oct | Reading Week | | | |
 | 23 Oct | RDF 2 (Students) | | |
 | 30 Oct |  Vector Databases (Semih & Bishwajit) | | |
-| 6 Nov | Applications 1: Graph RAG (Students) | | |
+| 6 Nov | Applications 1: Graph RAG (Students) (Shivani) | | |
 | 13 Nov | Applications 2: TDB: An application of logic-based systems (e.g., Cyc) (Students) | | |
 | 20 Nov | Applications 3: Graph ML (Students) | | |
 | 27 Nov | No Class | | |
