@@ -42,10 +42,10 @@ The below schedule is subject to change:
 | 9 Oct |  RDF 1 (Semih) | | A3 out (due October 23) |
 | 16 Oct | Reading Week | | | |
 | 23 Oct | RDF 2 (Students) | | |
-| 30 Oct |  Vector Databases (Semih & Bishwajit) | | |
-| 6 Nov | Applications 1: Graph RAG (Students) (Shivani) | | |
-| 13 Nov | Applications 2: TDB: An application of logic-based systems (e.g., Cyc) (Students) | | |
-| 20 Nov | Applications 3: Graph ML (Students) | | |
+| 30 Oct |  Vector Databases 1 (Semih) | | |
+| 6 Nov | Vector Databases 2 (Students) (Bishwajit) | | |
+| 13 Nov |Applications 1: Graph RAG (Students) (Shivani) | | |
+| 20 Nov | Applications 2: Graph ML (Students) (Rui)| | |
 | 27 Nov | No Class | | |
 | 4 Dec | Project presentations | | |
 
