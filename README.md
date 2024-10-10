@@ -41,7 +41,7 @@ The below schedule is subject to change:
 | 2 Oct | Datalog Applications (Students) | <ul> <li>[Strictly Declarative Specification of Sophisticated Points-to Analyses](https://yanniss.github.io/doop-oopsla09prelim.pdf) (Shaquille) </li> <li> [Declarative Routing: Extensible Routing With Declarative Queries](https://netdb.cis.upenn.edu/papers/declarenet.pdf) (Ruidi)</li> | |
 | 9 Oct |  RDF 1 (Semih) | <ul> <li> [SWFWO](http://www.kevenlw.name/downloads/Ontologist.pdf) Chapter 3: Up to 31-51 + Blank Nodes (54-57); Chapter 5: 79-90; Chapter 6: 91-102; Chapter 7: 124-125 (Inverse), 129-132 (Symmetric Properties and Transitivity) (For reviews, provide a 2-page brief summary of the basics of RDF and some of the inferencing capabilities in these chapters with examples)  | A3 out (due October 23)|
 | 16 Oct | Reading Week | | | |
-| 23 Oct | RDF 2 (Students) | | |
+| 23 Oct | RDF 2 (Students) | <ul> <li> [Linked Data Book](https://link.springer.com/book/10.1007/978-3-031-79432-2) Chapters 1, and 3 (no presentation, just reviews) <li> [DBPedia](https://www.researchgate.net/publication/259828897_DBpedia_-_A_Large-scale_Multilingual_Knowledge_Base_Extracted_from_Wikipedia) (Mayank) <li> [Google Dataset Search](https://dl.acm.org/doi/abs/10.1145/3308558.3313685) (Royi)  | |
 | 30 Oct |  Vector Databases 1 (Semih) | | |
 | 6 Nov | Vector Databases 2 (Students) (Bishwajit) | | |
 | 13 Nov |Applications 1: Graph RAG (Students) (Shivani) | | |
