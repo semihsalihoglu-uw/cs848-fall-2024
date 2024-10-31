@@ -43,8 +43,8 @@ The below schedule is subject to change:
 | 16 Oct | Reading Week | | | |
 | 23 Oct | RDF 2 (Students) | <ul> <li> [Linked Data Book](https://link.springer.com/book/10.1007/978-3-031-79432-2) Chapters 1, and 3 (no presentation, just reviews) <li> [DBPedia](https://www.researchgate.net/publication/259828897_DBpedia_-_A_Large-scale_Multilingual_Knowledge_Base_Extracted_from_Wikipedia) (Mayank) <li> [Google Dataset Search](https://dl.acm.org/doi/abs/10.1145/3308558.3313685) (Royi)  | |
 | 30 Oct |  Vector Databases 1 (Semih) | <ul> <li> [SA-Tree](https://dl.acm.org/doi/10.1007/s007780200060) <li> [HNSW](https://arxiv.org/pdf/1603.09320) | |
-| 6 Nov | Vector Databases 2 (Students) (Bishwajit & Diaa) | | |
-| 13 Nov |Applications 1: Graph RAG (Students) (Shivani) | | |
+| 6 Nov | Vector Databases 2 (Students) | <ul> <li> [HNSW](https://arxiv.org/pdf/1603.09320) (Diaa) <li> [Filtered DiskANN](https://harsha-simhadri.org/pubs/Filtered-DiskANN23.pdf) (Bishwajit)  | |
+| 13 Nov |Applications 1: Graph RAG (Students) (Shivani, Sterling) | | |
 | 20 Nov | Applications 2: Graph ML (Students) (Rui)| | |
 | 27 Nov | No Class | | |
 | 4 Dec | Project presentations | | |
