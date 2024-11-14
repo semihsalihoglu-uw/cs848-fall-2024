@@ -45,7 +45,7 @@ The below schedule is subject to change:
 | 30 Oct |  Vector Databases 1 (Semih) | <ul> <li> [SA-Tree](https://dl.acm.org/doi/10.1007/s007780200060) <li> [HNSW](https://arxiv.org/pdf/1603.09320) | |
 | 6 Nov | Vector Databases 2 (Students) | <ul> <li> [HNSW](https://arxiv.org/pdf/1603.09320) (Diaa)  | |
 | 13 Nov |Applications 1: Graph RAG (Students) (Shivani, Bishwajit) | <ul> <li> [Filtered DiskANN](https://harsha-simhadri.org/pubs/Filtered-DiskANN23.pdf) (Bishwajit) <li>[Hybrid RAG](https://arxiv.org/pdf/2408.04948) (Shivani) | |
-| 20 Nov | Applications 2: Graph ML (Students) (Rui, Sterling)| <ul> <li> [node2Vec](https://arxiv.org/pdf/1607.00653) (Rui) | |
+| 20 Nov | Applications 2: Graph ML (Students) (Rui, Sterling)| <ul> <li> [node2Vec](https://arxiv.org/pdf/1607.00653) (Rui) <li> [RDF2Vec](https://madoc.bib.uni-mannheim.de/41307/1/Ristoski_RDF2Vec.pdf) (Sterling) | |
 | 27 Nov | No Class | | |
 | 4 Dec | Project presentations | | |
 
